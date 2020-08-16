@@ -1,0 +1,1115 @@
+{
+  "report": {
+    "docType": "iam.identity-access-map",
+    "version": "1.0.0",
+    "createdById": "IBMid-5500087EME",
+    "date": "2020-08-16T18:52:33.608Z",
+    "fullReport": true,
+    "displayName": "Andrew Horvitz",
+    "contact": "andrew.horvitz@gmail.com"
+  },
+  "responses": [
+    {
+      "resource": {
+        "crn": "crn:v1:bluemix:public:cloud-object-storage:global:a/57e3e06012464bef8c7043e8056a3d0f:c4109d52-36dc-40c1-b7ba-3fa355eb27a8::",
+        "displayName": "cloud-object-storage-ay",
+        "serviceName": "cloud-object-storage",
+        "resourceGroupId": "0a6e581e60c2463ea05ae840bb9ee663",
+        "resourceGroupName": "Default"
+      },
+      "access": [
+        {
+          "subject": {
+            "user": {
+              "id": "IBMid-5500087EME",
+              "displayName": "Andrew Horvitz",
+              "contact": "andrew.horvitz@gmail.com"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "displayName": "Manager",
+                "description": "As a Manager, one can create/modify/delete buckets including managing retention policy, configuring IP addresses. In addition, one can upload and download the objects in the bucket."
+              },
+              "actions": [
+                {
+                  "action": "cloud-object-storage.bucket.put_firewall",
+                  "displayName": "PUT Bucket Firewall",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_location",
+                  "displayName": "GET Bucket Location",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post_initiate_upload",
+                  "displayName": "Initiate Multipart Upload",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_upload",
+                  "displayName": "Abort Multipart Upload",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.get_version",
+                  "displayName": "GET Object (Version)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.head",
+                  "displayName": "HEAD Bucket",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_versions",
+                  "displayName": "GET Bucket Object versions",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_protection",
+                  "displayName": "PUT Bucket protection",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_metrics_monitoring",
+                  "displayName": "PUT Bucket Metrics Monitoring",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.put_acl_version",
+                  "displayName": "PUT Object acl (Version)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.account.get_account_buckets",
+                  "displayName": "GET Capabilities (List Containers)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.delete",
+                  "displayName": "DELETE Object",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_bucket",
+                  "displayName": "DELETE Bucket",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_lifecycle",
+                  "displayName": "GET Bucket Lifecycle",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_activity_tracking",
+                  "displayName": "GET Bucket Activity Tracking",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_bucket_crn",
+                  "displayName": "Get Bucket CRN",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_firewall",
+                  "displayName": "GET Bucket Firewall",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.get_acl_version",
+                  "displayName": "GET Object acl (Version)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.get",
+                  "displayName": "GET Object",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.put_acl",
+                  "displayName": "PUT Object acl",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_metrics_monitoring",
+                  "displayName": "GET Bucket Metrics Monitoring",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post_md",
+                  "displayName": "POST Object (Metadata Update)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_lifecycle",
+                  "displayName": "PUT Bucket Lifecycle",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.copy",
+                  "displayName": "PUT Object - Copy",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part",
+                  "displayName": "Upload Part (Copy)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_basic",
+                  "displayName": "GET Bucket Basic",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_crk_id",
+                  "displayName": "List Crk Id",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.head",
+                  "displayName": "HEAD Object",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_versioning",
+                  "displayName": "GET Bucket Versioning",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_quota",
+                  "displayName": "PUT Container Quota",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.post_bucket",
+                  "displayName": "POST Bucket",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post_extend_retention",
+                  "displayName": "POST Object extendRetention",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_cors",
+                  "displayName": "DELETE Bucket cors",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_fasp_connection_info",
+                  "displayName": "GET Bucket FASP Connection Info",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.account.delete_fasp_connection_info",
+                  "displayName": "DELETE Bucket FASP Connection Info",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post_multi_delete",
+                  "displayName": "DELETE Multiple Objects",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get",
+                  "displayName": "GET Bucket (List Objects)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_uploads",
+                  "displayName": "List Multipart Uploads",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_cors",
+                  "displayName": "GET Bucket cors",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post_legal_hold",
+                  "displayName": "POST Object legalHold",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_get",
+                  "displayName": "PUT Object - Copy",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_versioning",
+                  "displayName": "PUT Bucket Versioning",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.get_acl",
+                  "displayName": "GET Object acl",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_version",
+                  "displayName": "DELETE Object (Version)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.get_uploads",
+                  "displayName": "List Parts",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_protection",
+                  "displayName": "GET Bucket protection",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_cors",
+                  "displayName": "PUT Bucket cors",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_activity_tracking",
+                  "displayName": "PUT Bucket Activity Tracking",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.head_version",
+                  "displayName": "HEAD Object (Version)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_acl",
+                  "displayName": "GET Bucket acl",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_bucket",
+                  "displayName": "PUT Bucket",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post",
+                  "displayName": "POST Object (Forms)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.put",
+                  "displayName": "PUT Object",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post_complete_upload",
+                  "displayName": "Complete Multipart Upload",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.get_legal_hold",
+                  "displayName": "GET Object legalHold",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.put_part",
+                  "displayName": "Upload Part",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part_get",
+                  "displayName": "Upload Part (Copy)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_acl",
+                  "displayName": "PUT Bucket acl",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.restore",
+                  "displayName": "POST Object restore",
+                  "description": ""
+                }
+              ],
+              "policyIds": [
+                "https://cloud.ibm.com/iam/users/IBMid-5500087EME/policies/a73d500b-7956-4429-b367-f993c3e7dc8d"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                  "displayName": "Manager",
+                  "description": "As a manager, you have permissions beyond the writer role to complete privileged actions as defined by the service. In addition, you can create and edit service-specific resources."
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read",
+                    "displayName": "Find cloud resources",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.read",
+                    "displayName": "IAM Policy Read",
+                    "description": "The ability to see policies."
+                  }
+                ],
+                "policyIds": [
+                  "https://cloud.ibm.com/iam/users/IBMid-5500087EME/policies/a73d500b-7956-4429-b367-f993c3e7dc8d"
+                ]
+              },
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::role:Administrator",
+                  "displayName": "Administrator",
+                  "description": "As an administrator, you can perform all platform actions based on the resource this role is being assigned, including assigning access policies to other users."
+                },
+                "actions": [
+                  {
+                    "action": "resource-controller.key.delete",
+                    "displayName": "Resource Key Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.resource.read",
+                    "displayName": "Find cloud resources",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.update",
+                    "displayName": "IAM Policy Update",
+                    "description": "The ability to update or edit existing policies."
+                  },
+                  {
+                    "action": "resource-controller.instance.create",
+                    "displayName": "Resource Instance Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.key.retrieve",
+                    "displayName": "Resource Key Retrieve ",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.role.read",
+                    "displayName": "IAM Role Read",
+                    "description": "The ability to see roles."
+                  },
+                  {
+                    "action": "resource-controller.alias.retrieve",
+                    "displayName": "Resource Alias Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.group.retrieve",
+                    "displayName": "Resource Group Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.create",
+                    "displayName": "IAM Policy Create",
+                    "description": "The ability to create policies."
+                  },
+                  {
+                    "action": "resource-controller.key.update",
+                    "displayName": "Resource Key Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve",
+                    "displayName": "Resource Instance Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.quota.retrieve",
+                    "displayName": "Quota Definitions Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.broker.retrieve",
+                    "displayName": "Resource Broker Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.key.create",
+                    "displayName": "Resource Key Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-user-tag",
+                    "displayName": "Attach tag",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.delegationPolicy.create",
+                    "displayName": "IAM Delegation policy Create",
+                    "description": "The ability to create a policy that can be delegated to another service."
+                  },
+                  {
+                    "action": "resource-controller.alias.create",
+                    "displayName": "Resource Alias Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve_history",
+                    "displayName": "Resource Instance Retrieve History",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.delete",
+                    "displayName": "IAM Policy Delete",
+                    "description": "The ability to delete existing policies."
+                  },
+                  {
+                    "action": "iam.service.read",
+                    "displayName": "IAM Service Read",
+                    "description": "The ability to see services."
+                  },
+                  {
+                    "action": "iam.role.assign",
+                    "displayName": "IAM Role Assign",
+                    "description": "The ability to assign roles to policies."
+                  },
+                  {
+                    "action": "resource-controller.group.update",
+                    "displayName": "Resource Group Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.group.delete",
+                    "displayName": "Resource Group Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.alias.delete",
+                    "displayName": "Resource Alias Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.read",
+                    "displayName": "IAM Policy Read",
+                    "description": "The ability to see policies."
+                  },
+                  {
+                    "action": "resource-controller.broker.update",
+                    "displayName": "Resource Broker Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.broker.delete",
+                    "displayName": "Resource Broker Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.update",
+                    "displayName": "Resource Binding Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-user-tag",
+                    "displayName": "Detach tag",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.create",
+                    "displayName": "Resource Binding Create ",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.update",
+                    "displayName": "Resource Instance Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.alias.update",
+                    "displayName": "Resource Alias Update ",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.group.create",
+                    "displayName": "Resource Group Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.delete",
+                    "displayName": "Resource Binding Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.retrieve",
+                    "displayName": "Resource Binding Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.broker.create",
+                    "displayName": "Resource Broker Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.update_plan",
+                    "displayName": "Resource Instance Update Plan",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.delete",
+                    "displayName": "Resource Instance Delete",
+                    "description": ""
+                  }
+                ],
+                "policyIds": [
+                  "https://cloud.ibm.com/iam/users/IBMid-5500087EME/policies/a73d500b-7956-4429-b367-f993c3e7dc8d"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "subject": {
+            "serviceId": {
+              "id": "iam-ServiceId-93d7db51-9df4-449f-ad58-bfd6be460771",
+              "displayName": "WDP-Project-Management-c4109d52-36dc-40c1-b7ba-3fa355eb27a8"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "displayName": "Manager",
+                "description": "As a Manager, one can create/modify/delete buckets including managing retention policy, configuring IP addresses. In addition, one can upload and download the objects in the bucket."
+              },
+              "actions": [
+                {
+                  "action": "cloud-object-storage.bucket.put_firewall",
+                  "displayName": "PUT Bucket Firewall",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_location",
+                  "displayName": "GET Bucket Location",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post_initiate_upload",
+                  "displayName": "Initiate Multipart Upload",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_upload",
+                  "displayName": "Abort Multipart Upload",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.get_version",
+                  "displayName": "GET Object (Version)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.head",
+                  "displayName": "HEAD Bucket",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_versions",
+                  "displayName": "GET Bucket Object versions",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_protection",
+                  "displayName": "PUT Bucket protection",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_metrics_monitoring",
+                  "displayName": "PUT Bucket Metrics Monitoring",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.put_acl_version",
+                  "displayName": "PUT Object acl (Version)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.account.get_account_buckets",
+                  "displayName": "GET Capabilities (List Containers)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.delete",
+                  "displayName": "DELETE Object",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_bucket",
+                  "displayName": "DELETE Bucket",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_lifecycle",
+                  "displayName": "GET Bucket Lifecycle",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_activity_tracking",
+                  "displayName": "GET Bucket Activity Tracking",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_bucket_crn",
+                  "displayName": "Get Bucket CRN",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_firewall",
+                  "displayName": "GET Bucket Firewall",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.get_acl_version",
+                  "displayName": "GET Object acl (Version)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.get",
+                  "displayName": "GET Object",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.put_acl",
+                  "displayName": "PUT Object acl",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_metrics_monitoring",
+                  "displayName": "GET Bucket Metrics Monitoring",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post_md",
+                  "displayName": "POST Object (Metadata Update)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_lifecycle",
+                  "displayName": "PUT Bucket Lifecycle",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.copy",
+                  "displayName": "PUT Object - Copy",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part",
+                  "displayName": "Upload Part (Copy)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_basic",
+                  "displayName": "GET Bucket Basic",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_crk_id",
+                  "displayName": "List Crk Id",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.head",
+                  "displayName": "HEAD Object",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_versioning",
+                  "displayName": "GET Bucket Versioning",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_quota",
+                  "displayName": "PUT Container Quota",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.post_bucket",
+                  "displayName": "POST Bucket",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post_extend_retention",
+                  "displayName": "POST Object extendRetention",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_cors",
+                  "displayName": "DELETE Bucket cors",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_fasp_connection_info",
+                  "displayName": "GET Bucket FASP Connection Info",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.account.delete_fasp_connection_info",
+                  "displayName": "DELETE Bucket FASP Connection Info",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post_multi_delete",
+                  "displayName": "DELETE Multiple Objects",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get",
+                  "displayName": "GET Bucket (List Objects)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_uploads",
+                  "displayName": "List Multipart Uploads",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_cors",
+                  "displayName": "GET Bucket cors",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post_legal_hold",
+                  "displayName": "POST Object legalHold",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_get",
+                  "displayName": "PUT Object - Copy",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_versioning",
+                  "displayName": "PUT Bucket Versioning",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.get_acl",
+                  "displayName": "GET Object acl",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_version",
+                  "displayName": "DELETE Object (Version)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.get_uploads",
+                  "displayName": "List Parts",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_protection",
+                  "displayName": "GET Bucket protection",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_cors",
+                  "displayName": "PUT Bucket cors",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_activity_tracking",
+                  "displayName": "PUT Bucket Activity Tracking",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.head_version",
+                  "displayName": "HEAD Object (Version)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_acl",
+                  "displayName": "GET Bucket acl",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_bucket",
+                  "displayName": "PUT Bucket",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post",
+                  "displayName": "POST Object (Forms)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.put",
+                  "displayName": "PUT Object",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.post_complete_upload",
+                  "displayName": "Complete Multipart Upload",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.get_legal_hold",
+                  "displayName": "GET Object legalHold",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.put_part",
+                  "displayName": "Upload Part",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part_get",
+                  "displayName": "Upload Part (Copy)",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_acl",
+                  "displayName": "PUT Bucket acl",
+                  "description": ""
+                },
+                {
+                  "action": "cloud-object-storage.object.restore",
+                  "displayName": "POST Object restore",
+                  "description": ""
+                }
+              ],
+              "policyIds": [
+                "https://cloud.ibm.com/iam/serviceids/ServiceId-93d7db51-9df4-449f-ad58-bfd6be460771/policies/4bebc37e-a070-4c91-a199-52feb3805e41"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                  "displayName": "Manager",
+                  "description": "As a manager, you have permissions beyond the writer role to complete privileged actions as defined by the service. In addition, you can create and edit service-specific resources."
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read",
+                    "displayName": "Find cloud resources",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.read",
+                    "displayName": "IAM Policy Read",
+                    "description": "The ability to see policies."
+                  }
+                ],
+                "policyIds": [
+                  "https://cloud.ibm.com/iam/serviceids/ServiceId-93d7db51-9df4-449f-ad58-bfd6be460771/policies/4bebc37e-a070-4c91-a199-52feb3805e41"
+                ]
+              },
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::role:Administrator",
+                  "displayName": "Administrator",
+                  "description": "As an administrator, you can perform all platform actions based on the resource this role is being assigned, including assigning access policies to other users."
+                },
+                "actions": [
+                  {
+                    "action": "resource-controller.key.delete",
+                    "displayName": "Resource Key Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.resource.read",
+                    "displayName": "Find cloud resources",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.update",
+                    "displayName": "IAM Policy Update",
+                    "description": "The ability to update or edit existing policies."
+                  },
+                  {
+                    "action": "resource-controller.instance.create",
+                    "displayName": "Resource Instance Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.key.retrieve",
+                    "displayName": "Resource Key Retrieve ",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.role.read",
+                    "displayName": "IAM Role Read",
+                    "description": "The ability to see roles."
+                  },
+                  {
+                    "action": "resource-controller.alias.retrieve",
+                    "displayName": "Resource Alias Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.group.retrieve",
+                    "displayName": "Resource Group Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.create",
+                    "displayName": "IAM Policy Create",
+                    "description": "The ability to create policies."
+                  },
+                  {
+                    "action": "resource-controller.key.update",
+                    "displayName": "Resource Key Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve",
+                    "displayName": "Resource Instance Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.quota.retrieve",
+                    "displayName": "Quota Definitions Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.broker.retrieve",
+                    "displayName": "Resource Broker Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.key.create",
+                    "displayName": "Resource Key Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-user-tag",
+                    "displayName": "Attach tag",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.delegationPolicy.create",
+                    "displayName": "IAM Delegation policy Create",
+                    "description": "The ability to create a policy that can be delegated to another service."
+                  },
+                  {
+                    "action": "resource-controller.alias.create",
+                    "displayName": "Resource Alias Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve_history",
+                    "displayName": "Resource Instance Retrieve History",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.delete",
+                    "displayName": "IAM Policy Delete",
+                    "description": "The ability to delete existing policies."
+                  },
+                  {
+                    "action": "iam.service.read",
+                    "displayName": "IAM Service Read",
+                    "description": "The ability to see services."
+                  },
+                  {
+                    "action": "iam.role.assign",
+                    "displayName": "IAM Role Assign",
+                    "description": "The ability to assign roles to policies."
+                  },
+                  {
+                    "action": "resource-controller.group.update",
+                    "displayName": "Resource Group Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.group.delete",
+                    "displayName": "Resource Group Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.alias.delete",
+                    "displayName": "Resource Alias Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "iam.policy.read",
+                    "displayName": "IAM Policy Read",
+                    "description": "The ability to see policies."
+                  },
+                  {
+                    "action": "resource-controller.broker.update",
+                    "displayName": "Resource Broker Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.broker.delete",
+                    "displayName": "Resource Broker Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.update",
+                    "displayName": "Resource Binding Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-user-tag",
+                    "displayName": "Detach tag",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.create",
+                    "displayName": "Resource Binding Create ",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.update",
+                    "displayName": "Resource Instance Update",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.alias.update",
+                    "displayName": "Resource Alias Update ",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.group.create",
+                    "displayName": "Resource Group Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.delete",
+                    "displayName": "Resource Binding Delete",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.binding.retrieve",
+                    "displayName": "Resource Binding Retrieve",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.broker.create",
+                    "displayName": "Resource Broker Create",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.update_plan",
+                    "displayName": "Resource Instance Update Plan",
+                    "description": ""
+                  },
+                  {
+                    "action": "resource-controller.instance.delete",
+                    "displayName": "Resource Instance Delete",
+                    "description": ""
+                  }
+                ],
+                "policyIds": [
+                  "https://cloud.ibm.com/iam/serviceids/ServiceId-93d7db51-9df4-449f-ad58-bfd6be460771/policies/4bebc37e-a070-4c91-a199-52feb3805e41"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
